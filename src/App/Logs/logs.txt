@@ -1,0 +1,898 @@
+2023-01-11 11:34:04.525 +08:00 [INF] Starting console host.
+2023-01-11 11:34:07.593 +08:00 [INF] Loaded ABP modules:
+2023-01-11 11:34:07.595 +08:00 [INF] - App.AppModule
+2023-01-11 11:34:07.595 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 11:34:07.595 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 11:34:07.595 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 11:34:07.595 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 11:34:07.595 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 11:34:07.595 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 11:34:07.595 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 11:34:07.595 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 11:34:07.595 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 11:34:07.595 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 11:34:07.595 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 11:34:07.595 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 11:34:07.595 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 11:34:07.595 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 11:34:07.595 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 11:34:07.595 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 11:34:07.595 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 11:34:07.595 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 11:34:07.595 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 11:34:07.595 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 11:34:07.615 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 11:34:07.615 +08:00 [INF] EnvironmentName => Production
+2023-01-11 11:34:07.616 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 11:34:07.635 +08:00 [INF] Hello World!
+2023-01-11 11:34:07.636 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 11:34:07.645 +08:00 [INF] Hosting environment: Production
+2023-01-11 11:34:07.645 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 11:34:10.593 +08:00 [INF] Application is shutting down...
+2023-01-11 11:34:59.396 +08:00 [INF] Starting console host.
+2023-01-11 11:35:00.107 +08:00 [INF] Loaded ABP modules:
+2023-01-11 11:35:00.109 +08:00 [INF] - App.AppModule
+2023-01-11 11:35:00.109 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 11:35:00.109 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 11:35:00.109 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 11:35:00.109 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 11:35:00.109 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 11:35:00.109 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 11:35:00.109 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 11:35:00.109 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 11:35:00.109 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 11:35:00.109 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 11:35:00.109 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 11:35:00.109 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 11:35:00.109 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 11:35:00.109 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 11:35:00.109 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 11:35:00.109 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 11:35:00.109 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 11:35:00.109 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 11:35:00.109 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 11:35:00.109 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 11:35:00.126 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 11:35:00.126 +08:00 [INF] EnvironmentName => Production
+2023-01-11 11:35:00.127 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 11:35:00.148 +08:00 [INF] Hello World!
+2023-01-11 11:35:00.149 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 11:35:00.160 +08:00 [INF] Hosting environment: Production
+2023-01-11 11:35:00.161 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 11:35:02.440 +08:00 [INF] Application is shutting down...
+2023-01-11 11:39:52.248 +08:00 [INF] Starting console host.
+2023-01-11 11:39:52.861 +08:00 [INF] Loaded ABP modules:
+2023-01-11 11:39:52.863 +08:00 [INF] - App.AppModule
+2023-01-11 11:39:52.863 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 11:39:52.863 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 11:39:52.863 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 11:39:52.863 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 11:39:52.863 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 11:39:52.863 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 11:39:52.863 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 11:39:52.863 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 11:39:52.863 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 11:39:52.863 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 11:39:52.863 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 11:39:52.863 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 11:39:52.863 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 11:39:52.863 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 11:39:52.863 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 11:39:52.863 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 11:39:52.863 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 11:39:52.863 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 11:39:52.863 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 11:39:52.863 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 11:39:52.880 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 11:39:52.880 +08:00 [INF] EnvironmentName => Production
+2023-01-11 11:39:52.882 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 11:39:52.934 +08:00 [FTL] Host terminated unexpectedly!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 23
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 11:41:00.303 +08:00 [INF] Starting console host.
+2023-01-11 11:41:00.982 +08:00 [INF] Loaded ABP modules:
+2023-01-11 11:41:00.983 +08:00 [INF] - App.AppModule
+2023-01-11 11:41:00.984 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 11:41:00.984 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 11:41:00.984 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 11:41:00.984 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 11:41:00.984 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 11:41:00.984 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 11:41:00.984 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 11:41:00.984 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 11:41:00.984 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 11:41:00.984 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 11:41:00.984 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 11:41:00.984 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 11:41:00.984 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 11:41:00.984 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 11:41:00.984 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 11:41:00.984 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 11:41:00.984 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 11:41:00.984 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 11:41:00.984 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 11:41:00.984 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 11:41:01.005 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 11:41:01.005 +08:00 [INF] EnvironmentName => Production
+2023-01-11 11:41:01.007 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 11:41:01.082 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 11:41:01.090 +08:00 [INF] Hosting environment: Production
+2023-01-11 11:41:01.091 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 13:55:43.136 +08:00 [INF] Application is shutting down...
+2023-01-11 13:57:45.015 +08:00 [INF] Starting console host.
+2023-01-11 13:57:45.839 +08:00 [INF] Loaded ABP modules:
+2023-01-11 13:57:45.842 +08:00 [INF] - App.AppModule
+2023-01-11 13:57:45.842 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 13:57:45.842 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 13:57:45.842 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 13:57:45.842 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 13:57:45.842 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 13:57:45.842 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 13:57:45.842 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 13:57:45.842 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 13:57:45.842 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 13:57:45.842 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 13:57:45.842 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 13:57:45.842 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 13:57:45.842 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 13:57:45.842 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 13:57:45.842 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 13:57:45.842 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 13:57:45.842 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 13:57:45.842 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 13:57:45.842 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 13:57:45.842 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 13:57:45.842 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 13:57:45.861 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 13:57:45.861 +08:00 [INF] EnvironmentName => Production
+2023-01-11 13:57:45.863 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 13:57:45.977 +08:00 [FTL] Host terminated unexpectedly!
+System.IO.FileNotFoundException: Could not find file 'C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\bigMappings.json'.
+File name: 'C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\bigMappings.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 35
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 14:10:24.385 +08:00 [INF] Starting console host.
+2023-01-11 14:10:25.135 +08:00 [INF] Loaded ABP modules:
+2023-01-11 14:10:25.137 +08:00 [INF] - App.AppModule
+2023-01-11 14:10:25.137 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 14:10:25.137 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 14:10:25.137 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 14:10:25.137 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 14:10:25.137 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 14:10:25.137 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 14:10:25.137 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 14:10:25.138 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 14:10:25.138 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 14:10:25.138 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 14:10:25.138 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 14:10:25.138 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 14:10:25.138 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 14:10:25.138 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 14:10:25.138 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 14:10:25.138 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 14:10:25.138 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 14:10:25.138 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 14:10:25.138 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 14:10:25.138 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 14:10:25.138 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 14:10:25.158 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 14:10:25.158 +08:00 [INF] EnvironmentName => Production
+2023-01-11 14:10:25.160 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 14:10:25.464 +08:00 [FTL] Host terminated unexpectedly!
+System.NotImplementedException: Can not map from given object (App.RealtimeOnlineDto) to HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline, App, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null.
+   at Volo.Abp.ObjectMapping.NotImplementedAutoObjectMappingProvider.Map[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.AutoMap[TSource,TDestination](Object source)
+   at Volo.Abp.ObjectMapping.DefaultObjectMapper.Map[TSource,TDestination](TSource source)
+   at App.HelloWorldService.<SayHelloAsync>b__7_1(RealtimeOnlineDto realtimeOnlineDto) in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 51
+   at System.Linq.Enumerable.SelectListIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 50
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 14:25:41.662 +08:00 [INF] Starting console host.
+2023-01-11 14:25:42.720 +08:00 [INF] Loaded ABP modules:
+2023-01-11 14:25:42.722 +08:00 [INF] - App.AppModule
+2023-01-11 14:25:42.722 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 14:25:42.722 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 14:25:42.722 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 14:25:42.722 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 14:25:42.722 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 14:25:42.722 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 14:25:42.722 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 14:25:42.722 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 14:25:42.722 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 14:25:42.722 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 14:25:42.722 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 14:25:42.722 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 14:25:42.722 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 14:25:42.722 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 14:25:42.722 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 14:25:42.722 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 14:25:42.722 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 14:25:42.722 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 14:25:42.722 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 14:25:42.722 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 14:25:42.722 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 14:25:42.722 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 14:25:42.722 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 14:25:42.722 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 14:25:42.741 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 14:25:42.741 +08:00 [INF] EnvironmentName => Production
+2023-01-11 14:25:42.744 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 14:25:43.540 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 14:25:43.547 +08:00 [INF] Hosting environment: Production
+2023-01-11 14:25:43.547 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 14:27:36.010 +08:00 [INF] Application is shutting down...
+2023-01-11 14:27:52.378 +08:00 [INF] Starting console host.
+2023-01-11 14:27:53.241 +08:00 [INF] Loaded ABP modules:
+2023-01-11 14:27:53.243 +08:00 [INF] - App.AppModule
+2023-01-11 14:27:53.243 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 14:27:53.243 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 14:27:53.243 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 14:27:53.243 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 14:27:53.243 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 14:27:53.243 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 14:27:53.243 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 14:27:53.243 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 14:27:53.243 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 14:27:53.243 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 14:27:53.243 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 14:27:53.243 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 14:27:53.243 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 14:27:53.243 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 14:27:53.243 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 14:27:53.243 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 14:27:53.243 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 14:27:53.243 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 14:27:53.243 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 14:27:53.243 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 14:27:53.243 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 14:27:53.243 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 14:27:53.243 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 14:27:53.243 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 14:27:53.263 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 14:27:53.263 +08:00 [INF] EnvironmentName => Production
+2023-01-11 14:27:53.264 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 14:27:53.493 +08:00 [INF] Hello World!
+2023-01-11 14:27:54.206 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 14:27:54.215 +08:00 [INF] Hosting environment: Production
+2023-01-11 14:27:54.215 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 14:28:22.558 +08:00 [INF] Application is shutting down...
+2023-01-11 14:28:27.757 +08:00 [INF] Starting console host.
+2023-01-11 14:28:28.705 +08:00 [INF] Loaded ABP modules:
+2023-01-11 14:28:28.707 +08:00 [INF] - App.AppModule
+2023-01-11 14:28:28.707 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 14:28:28.707 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 14:28:28.707 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 14:28:28.707 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 14:28:28.707 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 14:28:28.707 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 14:28:28.707 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 14:28:28.707 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 14:28:28.707 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 14:28:28.707 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 14:28:28.707 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 14:28:28.707 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 14:28:28.707 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 14:28:28.707 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 14:28:28.707 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 14:28:28.707 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 14:28:28.707 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 14:28:28.707 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 14:28:28.707 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 14:28:28.707 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 14:28:28.707 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 14:28:28.707 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 14:28:28.707 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 14:28:28.707 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 14:28:28.739 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 14:28:28.739 +08:00 [INF] EnvironmentName => Production
+2023-01-11 14:28:28.740 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 14:28:29.011 +08:00 [INF] Hello World!
+2023-01-11 14:28:29.550 +08:00 [INF] 写入时间：164 ms
+2023-01-11 14:28:29.552 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 14:28:29.559 +08:00 [INF] Hosting environment: Production
+2023-01-11 14:28:29.560 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 14:31:46.528 +08:00 [INF] Application is shutting down...
+2023-01-11 14:31:51.156 +08:00 [INF] Starting console host.
+2023-01-11 14:31:51.955 +08:00 [INF] Loaded ABP modules:
+2023-01-11 14:31:51.957 +08:00 [INF] - App.AppModule
+2023-01-11 14:31:51.957 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 14:31:51.957 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 14:31:51.957 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 14:31:51.957 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 14:31:51.957 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 14:31:51.957 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 14:31:51.957 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 14:31:51.957 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 14:31:51.957 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 14:31:51.957 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 14:31:51.957 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 14:31:51.957 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 14:31:51.957 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 14:31:51.957 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 14:31:51.957 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 14:31:51.957 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 14:31:51.957 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 14:31:51.957 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 14:31:51.957 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 14:31:51.957 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 14:31:51.957 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 14:31:51.958 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 14:31:51.958 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 14:31:51.958 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 14:31:51.978 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 14:31:51.978 +08:00 [INF] EnvironmentName => Production
+2023-01-11 14:31:51.981 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 14:31:52.175 +08:00 [INF] Hello World!
+2023-01-11 14:31:52.738 +08:00 [INF] SetManyAsync 执行时间：186 ms
+2023-01-11 14:31:52.767 +08:00 [INF] GetManyAsync 执行时间：28 ms
+2023-01-11 14:31:52.780 +08:00 [INF] GetOrAddManyAsync 执行时间：13 ms
+2023-01-11 14:31:52.782 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 14:31:52.791 +08:00 [INF] Hosting environment: Production
+2023-01-11 14:31:52.793 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 15:01:03.051 +08:00 [INF] Application is shutting down...
+2023-01-11 15:01:08.922 +08:00 [INF] Starting console host.
+2023-01-11 15:01:09.872 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:01:09.876 +08:00 [INF] - App.AppModule
+2023-01-11 15:01:09.876 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:01:09.876 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:01:09.876 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:01:09.876 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:01:09.876 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:01:09.876 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:01:09.876 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:01:09.876 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:01:09.876 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:01:09.876 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:01:09.876 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:01:09.876 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:01:09.876 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:01:09.877 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:01:09.877 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:01:09.877 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:01:09.877 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:01:09.877 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:01:09.877 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:01:09.877 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:01:09.877 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:01:09.877 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:01:09.877 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:01:09.877 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:01:09.897 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:01:09.897 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:01:09.898 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:01:10.319 +08:00 [INF] Hello World!
+2023-01-11 15:01:11.179 +08:00 [INF] SetManyAsync 执行时间：235 ms
+2023-01-11 15:01:11.201 +08:00 [INF] GetManyAsync 执行时间：21 ms
+2023-01-11 15:01:11.212 +08:00 [INF] GetOrAddManyAsync 执行时间：10 ms
+2023-01-11 15:01:11.213 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 15:01:11.227 +08:00 [INF] Hosting environment: Production
+2023-01-11 15:01:11.228 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 15:02:50.123 +08:00 [INF] Application is shutting down...
+2023-01-11 15:16:21.449 +08:00 [INF] Starting console host.
+2023-01-11 15:16:23.767 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:16:23.778 +08:00 [INF] - App.AppModule
+2023-01-11 15:16:23.780 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:16:23.785 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:16:23.789 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:16:23.792 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:16:23.796 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:16:23.803 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:16:23.837 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:16:23.843 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:16:23.853 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:16:23.859 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:16:23.863 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:16:23.873 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:16:23.877 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:16:23.881 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:16:23.888 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:16:23.891 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:16:23.894 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:16:23.897 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:16:23.901 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:16:23.904 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:16:23.909 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:16:23.918 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:16:23.923 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:16:23.927 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:16:23.955 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:16:23.960 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:16:23.965 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:16:24.245 +08:00 [INF] Hello World!
+2023-01-11 15:17:31.687 +08:00 [INF] Starting console host.
+2023-01-11 15:17:33.335 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:17:33.338 +08:00 [INF] - App.AppModule
+2023-01-11 15:17:33.341 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:17:33.343 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:17:33.345 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:17:33.348 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:17:33.351 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:17:33.353 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:17:33.357 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:17:33.361 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:17:33.365 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:17:33.370 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:17:33.374 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:17:33.376 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:17:33.379 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:17:33.382 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:17:33.384 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:17:33.390 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:17:33.397 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:17:33.419 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:17:33.424 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:17:33.427 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:17:33.430 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:17:33.436 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:17:33.440 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:17:33.444 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:17:33.471 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:17:33.473 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:17:33.478 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:17:33.717 +08:00 [INF] Hello World!
+2023-01-11 15:23:19.928 +08:00 [INF] Starting console host.
+2023-01-11 15:23:23.478 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:23:23.486 +08:00 [INF] - App.AppModule
+2023-01-11 15:23:23.489 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:23:23.493 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:23:23.499 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:23:23.505 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:23:23.513 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:23:23.519 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:23:23.522 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:23:23.532 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:23:23.537 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:23:23.540 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:23:23.542 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:23:23.549 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:23:23.552 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:23:23.554 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:23:23.557 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:23:23.562 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:23:23.567 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:23:23.569 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:23:23.572 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:23:23.577 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:23:23.584 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:23:23.587 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:23:23.590 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:23:23.626 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:23:23.654 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:23:23.657 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:23:23.662 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:23:23.946 +08:00 [INF] Hello World!
+2023-01-11 15:24:07.588 +08:00 [INF] Starting console host.
+2023-01-11 15:24:09.320 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:24:09.324 +08:00 [INF] - App.AppModule
+2023-01-11 15:24:09.327 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:24:09.331 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:24:09.333 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:24:09.336 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:24:09.339 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:24:09.341 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:24:09.343 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:24:09.347 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:24:09.350 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:24:09.352 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:24:09.354 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:24:09.357 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:24:09.360 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:24:09.363 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:24:09.365 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:24:09.368 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:24:09.371 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:24:09.408 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:24:09.411 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:24:09.415 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:24:09.418 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:24:09.449 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:24:09.453 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:24:09.458 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:24:09.485 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:24:09.488 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:24:09.492 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:24:09.759 +08:00 [INF] Hello World!
+2023-01-11 15:37:53.478 +08:00 [INF] Starting console host.
+2023-01-11 15:37:54.317 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:37:54.321 +08:00 [INF] - App.AppModule
+2023-01-11 15:37:54.321 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:37:54.321 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:37:54.321 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:37:54.321 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:37:54.321 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:37:54.321 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:37:54.321 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:37:54.321 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:37:54.321 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:37:54.321 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:37:54.321 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:37:54.321 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:37:54.321 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:37:54.321 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:37:54.321 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:37:54.322 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:37:54.322 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:37:54.322 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:37:54.322 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:37:54.322 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:37:54.322 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:37:54.322 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:37:54.322 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:37:54.322 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:37:54.342 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:37:54.342 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:37:54.343 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:37:54.713 +08:00 [INF] Hello World!
+2023-01-11 15:37:55.900 +08:00 [INF] SetManyAsync 执行时间：365 ms
+2023-01-11 15:37:55.929 +08:00 [INF] GetManyAsync 执行时间：28 ms
+2023-01-11 15:37:55.946 +08:00 [INF] GetOrAddManyAsync 执行时间：16 ms
+2023-01-11 15:37:55.948 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 15:37:55.964 +08:00 [INF] Hosting environment: Production
+2023-01-11 15:37:55.965 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 15:38:14.355 +08:00 [INF] Application is shutting down...
+2023-01-11 15:45:50.348 +08:00 [INF] Starting console host.
+2023-01-11 15:45:52.116 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:45:52.122 +08:00 [INF] - App.AppModule
+2023-01-11 15:45:52.125 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:45:52.127 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:45:52.130 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:45:52.133 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:45:52.136 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:45:52.140 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:45:52.144 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:45:52.147 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:45:52.151 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:45:52.153 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:45:52.156 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:45:52.159 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:45:52.162 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:45:52.165 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:45:52.174 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:45:52.177 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:45:52.180 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:45:52.183 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:45:52.188 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:45:52.214 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:45:52.220 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:45:52.224 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:45:52.226 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:45:52.229 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:45:52.257 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:45:52.262 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:45:52.266 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:45:52.685 +08:00 [INF] Hello World!
+2023-01-11 15:47:00.610 +08:00 [INF] SetManyAsync 执行时间：2312 ms
+2023-01-11 15:47:37.011 +08:00 [INF] GetManyAsync 执行时间：1709 ms，10722 条
+2023-01-11 15:48:51.526 +08:00 [INF] GetOrAddManyAsync 执行时间：3984 ms，10722 条
+2023-01-11 15:48:51.531 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 15:48:51.568 +08:00 [INF] Hosting environment: Production
+2023-01-11 15:48:51.573 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 15:52:08.735 +08:00 [INF] Starting console host.
+2023-01-11 15:52:09.473 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:52:09.475 +08:00 [INF] - App.AppModule
+2023-01-11 15:52:09.475 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:52:09.475 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:52:09.475 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:52:09.475 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:52:09.475 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:52:09.475 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:52:09.475 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:52:09.475 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:52:09.475 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:52:09.475 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:52:09.475 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:52:09.475 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:52:09.475 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:52:09.475 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:52:09.475 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:52:09.475 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:52:09.475 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:52:09.475 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:52:09.475 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:52:09.475 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:52:09.475 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:52:09.475 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:52:09.475 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:52:09.475 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:52:09.493 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:52:09.493 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:52:09.494 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:52:09.697 +08:00 [INF] Hello World!
+2023-01-11 15:52:10.443 +08:00 [INF] SetManyAsync 执行时间：207 ms
+2023-01-11 15:52:10.660 +08:00 [INF] GetManyAsync 执行时间：215 ms，10722 条
+2023-01-11 15:52:10.808 +08:00 [INF] GetOrAddManyAsync 执行时间：147 ms，10722 条
+2023-01-11 15:52:10.809 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 15:52:10.817 +08:00 [INF] Hosting environment: Production
+2023-01-11 15:52:10.817 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 15:58:34.632 +08:00 [INF] Application is shutting down...
+2023-01-11 15:58:39.718 +08:00 [INF] Starting console host.
+2023-01-11 15:58:40.661 +08:00 [INF] Loaded ABP modules:
+2023-01-11 15:58:40.663 +08:00 [INF] - App.AppModule
+2023-01-11 15:58:40.663 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 15:58:40.663 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 15:58:40.663 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 15:58:40.663 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 15:58:40.663 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 15:58:40.663 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 15:58:40.663 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 15:58:40.663 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 15:58:40.663 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 15:58:40.663 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 15:58:40.663 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 15:58:40.663 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 15:58:40.663 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 15:58:40.663 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 15:58:40.663 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 15:58:40.663 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 15:58:40.663 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 15:58:40.663 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 15:58:40.663 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 15:58:40.663 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 15:58:40.663 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 15:58:40.663 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 15:58:40.663 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 15:58:40.663 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 15:58:40.684 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 15:58:40.684 +08:00 [INF] EnvironmentName => Production
+2023-01-11 15:58:40.685 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 15:58:40.929 +08:00 [INF] Hello World!
+2023-01-11 15:58:41.752 +08:00 [INF] SetAsync 执行时间：86 ms
+2023-01-11 15:58:41.770 +08:00 [INF] SetAsync 执行时间：17 ms，值为：HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline
+2023-01-11 15:58:42.051 +08:00 [INF] SetManyAsync 执行时间：281 ms
+2023-01-11 15:58:42.318 +08:00 [INF] GetManyAsync 执行时间：266 ms，10722 条
+2023-01-11 15:58:42.478 +08:00 [INF] GetOrAddManyAsync 执行时间：159 ms，10722 条
+2023-01-11 15:58:42.480 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 15:58:42.487 +08:00 [INF] Hosting environment: Production
+2023-01-11 15:58:42.487 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 16:03:13.915 +08:00 [INF] Application is shutting down...
+2023-01-11 16:03:21.382 +08:00 [INF] Starting console host.
+2023-01-11 16:03:22.369 +08:00 [INF] Loaded ABP modules:
+2023-01-11 16:03:22.374 +08:00 [INF] - App.AppModule
+2023-01-11 16:03:22.374 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 16:03:22.374 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 16:03:22.374 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 16:03:22.374 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 16:03:22.374 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 16:03:22.374 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 16:03:22.374 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 16:03:22.374 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 16:03:22.374 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 16:03:22.374 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 16:03:22.374 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 16:03:22.374 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 16:03:22.374 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 16:03:22.374 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 16:03:22.374 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 16:03:22.374 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 16:03:22.374 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 16:03:22.374 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 16:03:22.374 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 16:03:22.374 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 16:03:22.374 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 16:03:22.374 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 16:03:22.374 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 16:03:22.374 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 16:03:22.431 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 16:03:22.433 +08:00 [INF] EnvironmentName => Production
+2023-01-11 16:03:22.436 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 16:03:22.678 +08:00 [INF] Hello World!
+2023-01-11 16:03:23.589 +08:00 [INF] SetAsync 执行时间：86 ms
+2023-01-11 16:03:23.609 +08:00 [INF] SetAsync 执行时间：19 ms，值为：HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline
+2023-01-11 16:03:23.853 +08:00 [INF] SetManyAsync 执行时间：244 ms
+2023-01-11 16:03:24.040 +08:00 [INF] GetManyAsync 执行时间：186 ms，10722 条
+2023-01-11 16:03:24.220 +08:00 [INF] GetOrAddManyAsync 执行时间：179 ms，10722 条
+2023-01-11 16:03:24.222 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 16:03:24.231 +08:00 [INF] Hosting environment: Production
+2023-01-11 16:03:24.232 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 16:04:28.251 +08:00 [INF] Application is shutting down...
+2023-01-11 16:04:34.245 +08:00 [INF] Starting console host.
+2023-01-11 16:04:34.985 +08:00 [INF] Loaded ABP modules:
+2023-01-11 16:04:34.987 +08:00 [INF] - App.AppModule
+2023-01-11 16:04:34.987 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 16:04:34.987 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 16:04:34.987 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 16:04:34.987 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 16:04:34.987 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 16:04:34.987 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 16:04:34.987 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 16:04:34.987 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 16:04:34.987 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 16:04:34.987 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 16:04:34.987 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 16:04:34.987 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 16:04:34.987 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 16:04:34.987 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 16:04:34.987 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 16:04:34.987 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 16:04:34.987 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 16:04:34.987 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 16:04:34.987 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 16:04:34.987 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 16:04:34.987 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 16:04:34.987 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 16:04:34.987 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 16:04:34.987 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 16:04:35.007 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 16:04:35.007 +08:00 [INF] EnvironmentName => Production
+2023-01-11 16:04:35.008 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 16:04:35.198 +08:00 [INF] Hello World!
+2023-01-11 16:04:35.948 +08:00 [INF] SetAsync 执行时间：79 ms
+2023-01-11 16:04:36.006 +08:00 [INF] SetAsync 执行时间：18 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-11T16:04:35.6566287+08:00","RecordValue":"123.45"}
+2023-01-11 16:04:36.217 +08:00 [INF] SetManyAsync 执行时间：210 ms
+2023-01-11 16:04:36.470 +08:00 [INF] GetManyAsync 执行时间：253 ms，10722 条
+2023-01-11 16:04:36.607 +08:00 [INF] GetOrAddManyAsync 执行时间：136 ms，10722 条
+2023-01-11 16:04:36.608 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 16:04:36.616 +08:00 [INF] Hosting environment: Production
+2023-01-11 16:04:36.616 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 16:43:37.201 +08:00 [INF] Application is shutting down...
+2023-01-11 16:45:38.123 +08:00 [INF] Starting console host.
+2023-01-11 16:45:40.197 +08:00 [INF] Loaded ABP modules:
+2023-01-11 16:45:40.203 +08:00 [INF] - App.AppModule
+2023-01-11 16:45:40.206 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 16:45:40.209 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 16:45:40.212 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 16:45:40.214 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 16:45:40.218 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 16:45:40.222 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 16:45:40.227 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 16:45:40.230 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 16:45:40.233 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 16:45:40.240 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 16:45:40.244 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 16:45:40.246 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 16:45:40.251 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 16:45:40.255 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 16:45:40.262 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 16:45:40.266 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 16:45:40.273 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 16:45:40.277 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 16:45:40.281 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 16:45:40.293 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 16:45:40.297 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 16:45:40.304 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 16:45:40.308 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 16:45:40.311 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 16:45:40.347 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 16:45:40.358 +08:00 [INF] EnvironmentName => Production
+2023-01-11 16:45:40.372 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 16:45:40.714 +08:00 [INF] Hello World!
+2023-01-11 17:04:09.740 +08:00 [INF] Starting console host.
+2023-01-11 17:04:10.689 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:04:10.691 +08:00 [INF] - App.AppModule
+2023-01-11 17:04:10.692 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:04:10.692 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:04:10.692 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:04:10.692 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:04:10.692 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:04:10.692 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:04:10.692 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:04:10.692 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:04:10.692 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:04:10.692 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:04:10.692 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:04:10.692 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:04:10.692 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:04:10.692 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:04:10.692 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:04:10.692 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:04:10.692 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:04:10.692 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:04:10.692 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:04:10.692 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:04:10.692 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:04:10.692 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:04:10.692 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:04:10.692 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:04:10.718 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:04:10.718 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:04:10.721 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:04:11.001 +08:00 [INF] Hello World!
+2023-01-11 17:04:12.139 +08:00 [INF] SetAsync 执行时间：77 ms
+2023-01-11 17:04:12.182 +08:00 [INF] GetAsync 执行时间：12 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-11T17:04:11.8003169+08:00","RecordValue":"123.45"}
+2023-01-11 17:04:12.479 +08:00 [INF] SetManyAsync 执行时间：296 ms
+2023-01-11 17:04:12.720 +08:00 [INF] GetManyAsync 执行时间：241 ms，10722 条
+2023-01-11 17:04:12.899 +08:00 [INF] GetOrAddManyAsync 执行时间：179 ms，10722 条
+2023-01-11 17:04:12.901 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 17:04:12.912 +08:00 [INF] Hosting environment: Production
+2023-01-11 17:04:12.913 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 17:04:24.709 +08:00 [INF] Application is shutting down...
+2023-01-11 17:04:29.828 +08:00 [INF] Starting console host.
+2023-01-11 17:04:30.818 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:04:30.821 +08:00 [INF] - App.AppModule
+2023-01-11 17:04:30.822 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:04:30.822 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:04:30.822 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:04:30.822 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:04:30.822 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:04:30.822 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:04:30.822 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:04:30.822 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:04:30.822 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:04:30.822 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:04:30.822 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:04:30.822 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:04:30.822 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:04:30.822 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:04:30.822 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:04:30.822 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:04:30.822 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:04:30.822 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:04:30.822 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:04:30.822 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:04:30.822 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:04:30.822 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:04:30.822 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:04:30.822 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:04:30.841 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:04:30.841 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:04:30.843 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:04:31.079 +08:00 [INF] Hello World!
+2023-01-11 17:04:32.801 +08:00 [INF] SetAsync 执行时间：90 ms
+2023-01-11 17:04:32.852 +08:00 [INF] GetAsync 执行时间：17 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-11T17:04:32.0156608+08:00","RecordValue":"123.45"}
+2023-01-11 17:04:33.136 +08:00 [INF] SetManyAsync 执行时间：283 ms
+2023-01-11 17:04:33.377 +08:00 [INF] GetManyAsync 执行时间：240 ms，10722 条
+2023-01-11 17:04:33.565 +08:00 [INF] GetOrAddManyAsync 执行时间：187 ms，10722 条
+2023-01-11 17:04:33.566 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 17:04:33.576 +08:00 [INF] Hosting environment: Production
+2023-01-11 17:04:33.577 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\demo\AbpFreeRedisDemo\src\App
+2023-01-11 17:15:45.520 +08:00 [INF] Starting console host.
+2023-01-11 17:15:51.720 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:15:51.722 +08:00 [INF] - App.AppModule
+2023-01-11 17:15:51.722 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:15:51.722 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:15:51.722 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:15:51.722 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:15:51.722 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:15:51.722 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:15:51.722 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:15:51.722 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:15:51.722 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:15:51.722 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:15:51.722 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:15:51.722 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:15:51.722 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:15:51.722 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:15:51.722 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:15:51.722 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:15:51.722 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:15:51.722 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:15:51.722 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:15:51.722 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:15:51.722 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:15:51.722 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:15:51.722 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:15:51.722 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:15:51.744 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:15:51.745 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:15:51.747 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:15:52.105 +08:00 [INF] Hello World!
+2023-01-11 17:15:53.053 +08:00 [INF] SetAsync 执行时间：85 ms
+2023-01-11 17:15:53.115 +08:00 [INF] GetAsync 执行时间：22 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-11T17:15:52.7473268+08:00","RecordValue":"123.45"}
+2023-01-11 17:15:53.334 +08:00 [INF] SetManyAsync 执行时间：219 ms
+2023-01-11 17:15:53.565 +08:00 [INF] GetManyAsync 执行时间：230 ms，10722 条
+2023-01-11 17:15:53.700 +08:00 [INF] GetOrAddManyAsync 执行时间：134 ms，10722 条
+2023-01-11 17:15:53.738 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 17:15:53.749 +08:00 [INF] Hosting environment: Production
+2023-01-11 17:15:53.750 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
+2023-01-11 17:17:13.714 +08:00 [INF] Application is shutting down...
