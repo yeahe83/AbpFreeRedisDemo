@@ -17,6 +17,7 @@ namespace App;
 [DependsOn(typeof(AbpCachingModule))]
 [DependsOn(typeof(AbpObjectMappingModule))]
 [DependsOn(typeof(AbpAutoMapperModule))]
+[DependsOn(typeof(AbpFreeRedisModule))]
 public class AppModule : AbpModule
 {
     public override Task OnApplicationInitializationAsync(ApplicationInitializationContext context)

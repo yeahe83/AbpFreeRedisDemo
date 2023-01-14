@@ -896,3 +896,1376 @@ System.NotImplementedException: Can not map from given object (App.RealtimeOnlin
 2023-01-11 17:15:53.749 +08:00 [INF] Hosting environment: Production
 2023-01-11 17:15:53.750 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
 2023-01-11 17:17:13.714 +08:00 [INF] Application is shutting down...
+2023-01-11 17:28:44.446 +08:00 [INF] Starting console host.
+2023-01-11 17:28:46.511 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:28:46.516 +08:00 [INF] - App.AppModule
+2023-01-11 17:28:46.519 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:28:46.523 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:28:46.529 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:28:46.536 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:28:46.540 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:28:46.544 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:28:46.547 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:28:46.556 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:28:46.563 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:28:46.569 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:28:46.576 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:28:46.580 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:28:46.584 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:28:46.594 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:28:46.599 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:28:46.607 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:28:46.618 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:28:46.634 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:28:46.642 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:28:46.645 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:28:46.663 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:28:46.706 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:28:46.711 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:28:46.718 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:28:46.753 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:28:46.760 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:28:46.774 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:28:47.087 +08:00 [INF] Hello World!
+2023-01-11 17:42:47.740 +08:00 [INF] Starting console host.
+2023-01-11 17:42:49.930 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:42:49.936 +08:00 [INF] - App.AppModule
+2023-01-11 17:42:49.938 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:42:49.940 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:42:49.943 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:42:49.946 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:42:49.949 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:42:49.952 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:42:49.955 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:42:49.957 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:42:49.959 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:42:49.964 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:42:49.970 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:42:49.973 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:42:49.975 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:42:49.978 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:42:49.980 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:42:49.983 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:42:49.988 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:42:49.991 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:42:49.994 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:42:49.997 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:42:49.999 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:42:50.003 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:42:50.006 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:42:50.015 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:42:50.042 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:42:50.045 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:42:50.050 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:42:50.894 +08:00 [INF] Hello World!
+2023-01-11 17:43:14.289 +08:00 [FTL] Host terminated unexpectedly!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 73
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 17:45:11.418 +08:00 [INF] Starting console host.
+2023-01-11 17:45:13.634 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:45:13.640 +08:00 [INF] - App.AppModule
+2023-01-11 17:45:13.642 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:45:13.645 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:45:13.648 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:45:13.651 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:45:13.658 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:45:13.662 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:45:13.665 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:45:13.672 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:45:13.677 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:45:13.690 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:45:13.697 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:45:13.703 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:45:13.719 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:45:13.729 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:45:13.735 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:45:13.769 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:45:13.779 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:45:13.790 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:45:13.796 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:45:13.803 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:45:13.810 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:45:13.815 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:45:13.818 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:45:13.821 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:45:13.846 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:45:13.850 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:45:13.856 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:45:14.192 +08:00 [INF] Hello World!
+2023-01-11 17:45:30.304 +08:00 [FTL] Host terminated unexpectedly!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 73
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 17:46:12.705 +08:00 [INF] Starting console host.
+2023-01-11 17:46:14.936 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:46:14.942 +08:00 [INF] - App.AppModule
+2023-01-11 17:46:14.946 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:46:14.950 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:46:14.955 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:46:14.958 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:46:14.961 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:46:14.968 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:46:14.972 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:46:14.976 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:46:14.978 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:46:14.981 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:46:14.987 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:46:14.991 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:46:14.994 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:46:14.997 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:46:15.001 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:46:15.004 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:46:15.009 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:46:15.011 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:46:15.014 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:46:15.018 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:46:15.023 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:46:15.026 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:46:15.031 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:46:15.034 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:46:15.062 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:46:15.065 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:46:15.070 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:46:15.408 +08:00 [INF] Hello World!
+2023-01-11 17:46:27.224 +08:00 [FTL] Host terminated unexpectedly!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 73
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 17:47:12.126 +08:00 [INF] Starting console host.
+2023-01-11 17:47:14.083 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:47:14.087 +08:00 [INF] - App.AppModule
+2023-01-11 17:47:14.123 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:47:14.127 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:47:14.131 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:47:14.141 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:47:14.148 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:47:14.151 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:47:14.154 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:47:14.156 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:47:14.161 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:47:14.164 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:47:14.167 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:47:14.173 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:47:14.176 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:47:14.181 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:47:14.184 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:47:14.190 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:47:14.194 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:47:14.198 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:47:14.204 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:47:14.208 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:47:14.211 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:47:14.216 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:47:14.222 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:47:14.233 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:47:14.259 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:47:14.262 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:47:14.277 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:47:14.373 +08:00 [FTL] Host terminated unexpectedly!
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> App.AppHostedService -> App.HelloWorldService.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'App.HelloWorldService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'SharpAbp.Abp.FreeRedis.IRedisClientFactory clientFactory' of constructor 'Void .ctor(Volo.Abp.Caching.IDistributedCache`2[HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline,System.String], Volo.Abp.ObjectMapping.IObjectMapper, SharpAbp.Abp.FreeRedis.IRedisClientFactory)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass12_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Container.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 17:48:01.947 +08:00 [INF] Starting console host.
+2023-01-11 17:48:04.116 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:48:04.124 +08:00 [INF] - App.AppModule
+2023-01-11 17:48:04.128 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:48:04.152 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:48:04.157 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:48:04.163 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:48:04.170 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:48:04.174 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:48:04.178 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:48:04.185 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:48:04.190 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:48:04.195 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:48:04.198 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:48:04.208 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:48:04.217 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:48:04.227 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:48:04.235 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:48:04.239 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:48:04.242 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:48:04.244 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:48:04.247 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:48:04.251 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:48:04.256 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:48:04.259 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:48:04.262 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:48:04.267 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:48:04.298 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:48:04.306 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:48:04.312 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:48:04.422 +08:00 [FTL] Host terminated unexpectedly!
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> App.AppHostedService -> App.HelloWorldService.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'App.HelloWorldService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'SharpAbp.Abp.FreeRedis.IRedisClientFactory clientFactory' of constructor 'Void .ctor(Volo.Abp.Caching.IDistributedCache`2[HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline,System.String], Volo.Abp.ObjectMapping.IObjectMapper, SharpAbp.Abp.FreeRedis.IRedisClientFactory)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass12_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Container.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 17:49:44.860 +08:00 [INF] Starting console host.
+2023-01-11 17:49:47.107 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:49:47.117 +08:00 [INF] - App.AppModule
+2023-01-11 17:49:47.122 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:49:47.126 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:49:47.129 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:49:47.136 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:49:47.141 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:49:47.145 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:49:47.150 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:49:47.155 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:49:47.159 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:49:47.162 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:49:47.170 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:49:47.175 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:49:47.180 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:49:47.187 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:49:47.226 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:49:47.230 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:49:47.240 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:49:47.244 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:49:47.248 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:49:47.253 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:49:47.261 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:49:47.265 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:49:47.272 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:49:47.277 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:49:47.308 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:49:47.312 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:49:47.322 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:49:47.427 +08:00 [FTL] Host terminated unexpectedly!
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> App.AppHostedService -> App.HelloWorldService.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'App.HelloWorldService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'SharpAbp.Abp.FreeRedis.IRedisClientFactory clientFactory' of constructor 'Void .ctor(Volo.Abp.Caching.IDistributedCache`2[HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline,System.String], Volo.Abp.ObjectMapping.IObjectMapper, SharpAbp.Abp.FreeRedis.IRedisClientFactory)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass12_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Container.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 17:50:44.948 +08:00 [INF] Starting console host.
+2023-01-11 17:50:47.028 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:50:47.036 +08:00 [INF] - App.AppModule
+2023-01-11 17:50:47.041 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:50:47.049 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:50:47.054 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:50:47.058 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:50:47.063 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:50:47.068 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:50:47.071 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:50:47.075 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:50:47.078 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:50:47.093 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:50:47.098 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:50:47.101 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:50:47.104 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:50:47.106 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:50:47.109 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:50:47.122 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:50:47.126 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:50:47.132 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:50:47.138 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:50:47.141 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:50:47.143 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:50:47.146 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:50:47.152 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:50:47.156 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:50:47.184 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:50:47.188 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:50:47.196 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:50:47.298 +08:00 [FTL] Host terminated unexpectedly!
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> App.AppHostedService -> App.HelloWorldService.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'App.HelloWorldService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'SharpAbp.Abp.FreeRedis.IRedisClientFactory clientFactory' of constructor 'Void .ctor(Volo.Abp.Caching.IDistributedCache`2[HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline,System.String], Volo.Abp.ObjectMapping.IObjectMapper, SharpAbp.Abp.FreeRedis.IRedisClientFactory)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass12_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Container.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 17:55:21.155 +08:00 [INF] Starting console host.
+2023-01-11 17:55:23.577 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:55:23.587 +08:00 [INF] - App.AppModule
+2023-01-11 17:55:23.590 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:55:23.593 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:55:23.597 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:55:23.601 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:55:23.606 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:55:23.610 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:55:23.612 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:55:23.614 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:55:23.617 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:55:23.621 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:55:23.625 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:55:23.655 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:55:23.686 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:55:23.689 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:55:23.691 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:55:23.695 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:55:23.697 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:55:23.699 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:55:23.701 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:55:23.704 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:55:23.706 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:55:23.709 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:55:23.711 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:55:23.716 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:55:23.719 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 17:55:23.741 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:55:23.744 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:55:23.748 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:55:34.157 +08:00 [INF] Hello World!
+2023-01-11 17:55:55.017 +08:00 [FTL] Host terminated unexpectedly!
+System.Exception: 【192.168.1.165:30379/0】状态不可用，等待后台检查程序恢复方可使用。ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+ ---> FreeRedis.RedisServerException: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+   at FreeRedis.RedisResult.ThrowOrNothing()
+   at FreeRedis.Internal.RedisClientPool.<>c.<.ctor>b__0_3(RedisResult rt)
+   at FreeRedis.CommandPacket.OnDataTrigger(RedisResult rt)
+   at FreeRedis.Internal.DefaultRedisSocket.Read(CommandPacket cmd)
+   at FreeRedis.Internal.DefaultRedisSocket.TempProxyRedisSocket.Read(CommandPacket cmd)
+   at FreeRedis.Internal.RedisClientPool.<>c__DisplayClass0_3.<.ctor>b__9()
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.Internal.RedisClientPool.<>c__DisplayClass0_1.<.ctor>b__7(CommandPacket cmd)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at FreeRedis.Internal.RedisClientPool.<>c__DisplayClass0_0.<.ctor>b__0(Object s, EventArgs o)
+   at FreeRedis.Internal.RedisClientPoolPolicy.<OnCreate>b__40_0(RedisClient cli)
+   at FreeRedis.RedisClient.SingleInsideAdapter.<>c__DisplayClass1_0.<.ctor>b__0(Object s, EventArgs e)
+   at FreeRedis.Internal.DefaultRedisSocket.Connect()
+   at FreeRedis.Internal.DefaultRedisSocket.Write(CommandPacket cmd)
+   at FreeRedis.RedisClient.SingleInsideAdapter.<>c__DisplayClass5_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.SingleInsideAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Ping(String message)
+   at FreeRedis.Internal.RedisClientPoolPolicy.PrevReheatConnectionPool(ObjectPool`1 pool, Int32 minPoolSize)
+   --- End of inner exception stack trace ---
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeRedis.RedisClient.PoolingAdapter.GetRedisSocket(CommandPacket cmd)
+   at FreeRedis.RedisClient.PoolingAdapter.<>c__DisplayClass9_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.PoolingAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Set[T](String key, T value, TimeSpan timeout, Boolean keepTtl, Boolean nx, Boolean xx, Boolean get)
+   at FreeRedis.RedisClient.Set[T](String key, T value, Int32 timeoutSeconds)
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 81
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 17:56:57.075 +08:00 [INF] Starting console host.
+2023-01-11 17:56:59.362 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:56:59.371 +08:00 [INF] - App.AppModule
+2023-01-11 17:56:59.376 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:56:59.380 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:56:59.385 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:56:59.389 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:56:59.397 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:56:59.401 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:56:59.406 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:56:59.412 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:56:59.419 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:56:59.423 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:56:59.427 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:56:59.437 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:56:59.443 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:56:59.450 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:56:59.455 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:56:59.459 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:56:59.467 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:56:59.471 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:56:59.474 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:56:59.480 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:56:59.485 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:56:59.489 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:56:59.498 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:56:59.503 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:56:59.508 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 17:56:59.536 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:56:59.543 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:56:59.568 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:57:04.497 +08:00 [INF] Hello World!
+2023-01-11 17:59:19.537 +08:00 [INF] Starting console host.
+2023-01-11 17:59:21.710 +08:00 [INF] Loaded ABP modules:
+2023-01-11 17:59:21.718 +08:00 [INF] - App.AppModule
+2023-01-11 17:59:21.722 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 17:59:21.727 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 17:59:21.733 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 17:59:21.737 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 17:59:21.740 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 17:59:21.764 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 17:59:21.771 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 17:59:21.775 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 17:59:21.782 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 17:59:21.787 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 17:59:21.790 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 17:59:21.797 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 17:59:21.801 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 17:59:21.804 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 17:59:21.807 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 17:59:21.818 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 17:59:21.822 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 17:59:21.828 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 17:59:21.834 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 17:59:21.837 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 17:59:21.842 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 17:59:21.847 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 17:59:21.853 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 17:59:21.856 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 17:59:21.861 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 17:59:21.892 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 17:59:21.896 +08:00 [INF] EnvironmentName => Production
+2023-01-11 17:59:21.901 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 17:59:28.143 +08:00 [INF] Hello World!
+2023-01-11 17:59:39.371 +08:00 [INF] SetAsync 执行时间：2578 ms
+2023-01-11 17:59:49.386 +08:00 [INF] GetAsync 执行时间：2373 ms，值为："HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline"
+2023-01-11 18:00:25.587 +08:00 [INF] SetManyAsync 执行时间：3362 ms
+2023-01-11 18:00:59.643 +08:00 [INF] GetManyAsync 执行时间：14493 ms，10722 条
+2023-01-11 18:01:15.714 +08:00 [INF] GetOrAddManyAsync 执行时间：3128 ms
+2023-01-11 18:01:15.740 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 18:01:15.761 +08:00 [INF] Hosting environment: Production
+2023-01-11 18:01:15.766 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
+2023-01-11 18:01:52.431 +08:00 [INF] Starting console host.
+2023-01-11 18:01:54.755 +08:00 [INF] Loaded ABP modules:
+2023-01-11 18:01:54.765 +08:00 [INF] - App.AppModule
+2023-01-11 18:01:54.769 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 18:01:54.772 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 18:01:54.782 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 18:01:54.785 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 18:01:54.789 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 18:01:54.793 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 18:01:54.800 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 18:01:54.803 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 18:01:54.807 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 18:01:54.835 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 18:01:54.839 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 18:01:54.842 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 18:01:54.847 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 18:01:54.854 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 18:01:54.858 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 18:01:54.864 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 18:01:54.869 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 18:01:54.873 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 18:01:54.879 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 18:01:54.883 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 18:01:54.885 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 18:01:54.920 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 18:01:54.933 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 18:01:54.937 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 18:01:54.941 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 18:01:54.966 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 18:01:54.971 +08:00 [INF] EnvironmentName => Production
+2023-01-11 18:01:54.994 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 18:01:58.559 +08:00 [INF] Hello World!
+2023-01-11 18:16:41.985 +08:00 [INF] Starting console host.
+2023-01-11 18:16:45.362 +08:00 [INF] Loaded ABP modules:
+2023-01-11 18:16:45.369 +08:00 [INF] - App.AppModule
+2023-01-11 18:16:45.374 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 18:16:45.378 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 18:16:45.381 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 18:16:45.385 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 18:16:45.390 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 18:16:45.394 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 18:16:45.397 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 18:16:45.401 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 18:16:45.411 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 18:16:45.426 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 18:16:45.431 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 18:16:45.436 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 18:16:45.440 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 18:16:45.443 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 18:16:45.446 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 18:16:45.450 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 18:16:45.452 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 18:16:45.456 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 18:16:45.460 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 18:16:45.462 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 18:16:45.466 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 18:16:45.489 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 18:16:45.492 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 18:16:45.495 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 18:16:45.498 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 18:16:45.527 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 18:16:45.534 +08:00 [INF] EnvironmentName => Production
+2023-01-11 18:16:45.540 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 18:16:53.277 +08:00 [INF] Hello World!
+2023-01-11 18:17:14.973 +08:00 [FTL] Host terminated unexpectedly!
+System.Exception: 【127.0.0.1:30379/0】状态不可用，等待后台检查程序恢复方可使用。由于目标计算机积极拒绝，无法连接。
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToApm.End(IAsyncResult asyncResult)
+   at FreeRedis.Internal.DefaultRedisSocket.Connect()
+   at FreeRedis.Internal.DefaultRedisSocket.Write(CommandPacket cmd)
+   at FreeRedis.RedisClient.SingleInsideAdapter.<>c__DisplayClass5_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.SingleInsideAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Ping(String message)
+   at FreeRedis.Internal.RedisClientPoolPolicy.PrevReheatConnectionPool(ObjectPool`1 pool, Int32 minPoolSize)
+   --- End of inner exception stack trace ---
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeRedis.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeRedis.RedisClient.PoolingAdapter.GetRedisSocket(CommandPacket cmd)
+   at FreeRedis.RedisClient.PoolingAdapter.<>c__DisplayClass9_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.PoolingAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Set[T](String key, T value, TimeSpan timeout, Boolean keepTtl, Boolean nx, Boolean xx, Boolean get)
+   at FreeRedis.RedisClient.Set[T](String key, T value, Int32 timeoutSeconds)
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 81
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 18:17:49.852 +08:00 [INF] Starting console host.
+2023-01-11 18:17:51.887 +08:00 [INF] Loaded ABP modules:
+2023-01-11 18:17:51.907 +08:00 [INF] - App.AppModule
+2023-01-11 18:17:51.911 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 18:17:51.915 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 18:17:51.917 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 18:17:51.920 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 18:17:51.923 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 18:17:51.927 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 18:17:51.930 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 18:17:51.934 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 18:17:51.939 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 18:17:51.942 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 18:17:51.945 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 18:17:51.949 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 18:17:51.954 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 18:17:51.958 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 18:17:51.960 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 18:17:51.963 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 18:17:51.970 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 18:17:51.975 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 18:17:51.978 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 18:17:51.984 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 18:17:51.988 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 18:17:51.992 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 18:17:51.997 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 18:17:52.001 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 18:17:52.006 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 18:17:52.033 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 18:17:52.037 +08:00 [INF] EnvironmentName => Production
+2023-01-11 18:17:52.042 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 18:17:55.230 +08:00 [INF] Hello World!
+2023-01-11 18:18:57.283 +08:00 [INF] SetAsync 执行时间：29806 ms
+2023-01-11 18:18:57.377 +08:00 [INF] GetAsync 执行时间：69 ms，值为："HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline"
+2023-01-11 18:18:58.086 +08:00 [INF] SetManyAsync 执行时间：703 ms
+2023-01-11 18:18:58.613 +08:00 [INF] GetManyAsync 执行时间：523 ms，10722 条
+2023-01-11 18:18:59.118 +08:00 [INF] GetOrAddManyAsync 执行时间：501 ms
+2023-01-11 18:18:59.140 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 18:18:59.152 +08:00 [INF] Hosting environment: Production
+2023-01-11 18:18:59.157 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
+2023-01-11 18:24:53.463 +08:00 [INF] Starting console host.
+2023-01-11 18:24:55.880 +08:00 [INF] Loaded ABP modules:
+2023-01-11 18:24:55.886 +08:00 [INF] - App.AppModule
+2023-01-11 18:24:55.889 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 18:24:55.891 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 18:24:55.895 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 18:24:55.897 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 18:24:55.899 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 18:24:55.901 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 18:24:55.905 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 18:24:55.907 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 18:24:55.911 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 18:24:55.913 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 18:24:55.916 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 18:24:55.921 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 18:24:55.923 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 18:24:55.927 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 18:24:55.930 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 18:24:55.932 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 18:24:55.935 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 18:24:55.937 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 18:24:55.940 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 18:24:55.942 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 18:24:55.945 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 18:24:55.976 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 18:24:55.978 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 18:24:55.982 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 18:24:55.985 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 18:24:56.009 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 18:24:56.014 +08:00 [INF] EnvironmentName => Production
+2023-01-11 18:24:56.018 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 18:24:59.456 +08:00 [INF] Hello World!
+2023-01-11 18:25:12.032 +08:00 [INF] SetAsync 执行时间：21 ms
+2023-01-11 18:25:12.319 +08:00 [FTL] Host terminated unexpectedly!
+System.NotSupportedException: convert failed System.String -> HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline
+   at FreeRedis.RespHelper.<>c__DisplayClass30_1.<FromObject>b__39(String vs)
+   at FreeRedis.RespHelper.FromObject(Type targetType, Object value, Encoding encoding)
+   at FreeRedis.RespHelper.ConvertTo[T](Object value)
+   at FreeRedis.RedisClient.DeserializeRedisValue[T](Byte[] valueRaw, Encoding encoding)
+   at FreeRedis.RedisClient.<>c__DisplayClass740_0`1.<Get>b__1(Object a)
+   at FreeRedis.RedisResult.ThrowOrValue[TValue](Func`2 value)
+   at FreeRedis.RedisClient.<Get>b__740_0[T](RedisResult rt)
+   at FreeRedis.RedisClient.PoolingAdapter.<>c__DisplayClass9_0`1.<AdapterCall>b__0()
+   at FreeRedis.RedisClient.LogCall[T](CommandPacket cmd, Func`1 func)
+   at FreeRedis.RedisClient.PoolingAdapter.AdapterCall[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Call[TValue](CommandPacket cmd, Func`2 parse)
+   at FreeRedis.RedisClient.Get[T](String key)
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 93
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-11 18:25:38.656 +08:00 [INF] Starting console host.
+2023-01-11 18:25:41.015 +08:00 [INF] Loaded ABP modules:
+2023-01-11 18:25:41.025 +08:00 [INF] - App.AppModule
+2023-01-11 18:25:41.030 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 18:25:41.035 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 18:25:41.039 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 18:25:41.046 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 18:25:41.052 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 18:25:41.055 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 18:25:41.060 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 18:25:41.065 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 18:25:41.069 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 18:25:41.072 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 18:25:41.079 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 18:25:41.082 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 18:25:41.089 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 18:25:41.098 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 18:25:41.112 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 18:25:41.118 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 18:25:41.121 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 18:25:41.124 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 18:25:41.139 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 18:25:41.150 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 18:25:41.154 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 18:25:41.158 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 18:25:41.172 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 18:25:41.186 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 18:25:41.191 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 18:25:41.217 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 18:25:41.223 +08:00 [INF] EnvironmentName => Production
+2023-01-11 18:25:41.231 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 18:25:44.484 +08:00 [INF] Hello World!
+2023-01-11 18:26:06.780 +08:00 [INF] SetAsync 执行时间：2329 ms
+2023-01-11 18:29:00.075 +08:00 [INF] Starting console host.
+2023-01-11 18:29:02.676 +08:00 [INF] Loaded ABP modules:
+2023-01-11 18:29:02.681 +08:00 [INF] - App.AppModule
+2023-01-11 18:29:02.685 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-11 18:29:02.688 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-11 18:29:02.692 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-11 18:29:02.698 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-11 18:29:02.701 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-11 18:29:02.705 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-11 18:29:02.723 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-11 18:29:02.731 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-11 18:29:02.735 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-11 18:29:02.739 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-11 18:29:02.742 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-11 18:29:02.747 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-11 18:29:02.750 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-11 18:29:02.753 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-11 18:29:02.755 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-11 18:29:02.759 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-11 18:29:02.764 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-11 18:29:02.767 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-11 18:29:02.770 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-11 18:29:02.773 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-11 18:29:02.813 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-11 18:29:02.816 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-11 18:29:02.820 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-11 18:29:02.823 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-11 18:29:02.827 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-11 18:29:02.853 +08:00 [INF] MySettingName => MySettingValue
+2023-01-11 18:29:02.855 +08:00 [INF] EnvironmentName => Production
+2023-01-11 18:29:02.863 +08:00 [INF] Initialized all ABP modules.
+2023-01-11 18:29:07.638 +08:00 [INF] Hello World!
+2023-01-11 18:29:27.415 +08:00 [INF] SetAsync 执行时间：1840 ms
+2023-01-11 18:29:40.579 +08:00 [INF] GetAsync 执行时间：24 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-11T18:29:12.6332979+08:00","RecordValue":"123.45"}
+2023-01-11 18:29:41.948 +08:00 [INF] SetManyAsync 执行时间：1365 ms
+2023-01-11 18:29:42.532 +08:00 [INF] GetManyAsync 执行时间：580 ms，10722 条
+2023-01-11 18:29:43.489 +08:00 [INF] GetOrAddManyAsync 执行时间：954 ms
+2023-01-11 18:29:58.570 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-11 18:29:58.585 +08:00 [INF] Hosting environment: Production
+2023-01-11 18:29:58.590 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
+2023-01-13 15:33:32.291 +08:00 [INF] Starting console host.
+2023-01-13 15:33:37.359 +08:00 [INF] Loaded ABP modules:
+2023-01-13 15:33:37.365 +08:00 [INF] - App.AppModule
+2023-01-13 15:33:37.368 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-13 15:33:37.371 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-13 15:33:37.374 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-13 15:33:37.377 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-13 15:33:37.380 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-13 15:33:37.406 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-13 15:33:37.410 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-13 15:33:37.412 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-13 15:33:37.415 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-13 15:33:37.418 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-13 15:33:37.421 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-13 15:33:37.423 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-13 15:33:37.425 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-13 15:33:37.428 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-13 15:33:37.431 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-13 15:33:37.434 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-13 15:33:37.437 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-13 15:33:37.439 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-13 15:33:37.441 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-13 15:33:37.444 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-13 15:33:37.447 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-13 15:33:37.450 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-13 15:33:37.452 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-13 15:33:37.455 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-13 15:33:37.457 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-13 15:33:37.475 +08:00 [INF] MySettingName => MySettingValue
+2023-01-13 15:33:37.478 +08:00 [INF] EnvironmentName => Production
+2023-01-13 15:33:37.482 +08:00 [INF] Initialized all ABP modules.
+2023-01-13 15:33:37.695 +08:00 [FTL] Host terminated unexpectedly!
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> App.AppHostedService -> App.HelloWorldService.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'App.HelloWorldService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Volo.Abp.Caching.AbpDistributedCacheOptions abpDistributedCacheOptions' of constructor 'Void .ctor(Volo.Abp.Caching.IDistributedCache`2[HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline,System.String], Volo.Abp.ObjectMapping.IObjectMapper, SharpAbp.Abp.FreeRedis.IRedisClientFactory, Volo.Abp.Caching.AbpDistributedCacheOptions)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass12_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Container.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-13 15:40:50.052 +08:00 [INF] Starting console host.
+2023-01-13 15:40:51.372 +08:00 [INF] Loaded ABP modules:
+2023-01-13 15:40:51.379 +08:00 [INF] - App.AppModule
+2023-01-13 15:40:51.409 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-13 15:40:51.416 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-13 15:40:51.420 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-13 15:40:51.424 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-13 15:40:51.430 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-13 15:40:51.436 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-13 15:40:51.441 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-13 15:40:51.446 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-13 15:40:51.450 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-13 15:40:51.458 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-13 15:40:51.462 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-13 15:40:51.466 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-13 15:40:51.471 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-13 15:40:51.476 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-13 15:40:51.480 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-13 15:40:51.485 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-13 15:40:51.491 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-13 15:40:51.496 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-13 15:40:51.500 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-13 15:40:51.504 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-13 15:40:51.508 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-13 15:40:51.511 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-13 15:40:51.517 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-13 15:40:51.520 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-13 15:40:51.526 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-13 15:40:51.547 +08:00 [INF] MySettingName => MySettingValue
+2023-01-13 15:40:51.549 +08:00 [INF] EnvironmentName => Production
+2023-01-13 15:40:51.553 +08:00 [INF] Initialized all ABP modules.
+2023-01-13 15:40:51.613 +08:00 [FTL] Host terminated unexpectedly!
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> App.AppHostedService -> App.HelloWorldService.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'App.HelloWorldService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Volo.Abp.Caching.AbpDistributedCacheOptions abpDistributedCacheOptions' of constructor 'Void .ctor(Volo.Abp.Caching.IDistributedCache`2[HNSC.CL.II.HisData.RealtimeOnlines.RealtimeOnline,System.String], Volo.Abp.ObjectMapping.IObjectMapper, SharpAbp.Abp.FreeRedis.IRedisClientFactory, Volo.Abp.Caching.AbpDistributedCacheOptions)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass12_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Container.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-13 15:46:13.520 +08:00 [INF] Starting console host.
+2023-01-13 15:46:14.878 +08:00 [INF] Loaded ABP modules:
+2023-01-13 15:46:14.885 +08:00 [INF] - App.AppModule
+2023-01-13 15:46:14.888 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-13 15:46:14.893 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-13 15:46:14.896 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-13 15:46:14.900 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-13 15:46:14.904 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-13 15:46:14.907 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-13 15:46:14.910 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-13 15:46:14.912 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-13 15:46:14.914 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-13 15:46:14.919 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-13 15:46:14.921 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-13 15:46:14.924 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-13 15:46:14.925 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-13 15:46:14.928 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-13 15:46:14.930 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-13 15:46:14.934 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-13 15:46:14.940 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-13 15:46:14.944 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-13 15:46:14.946 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-13 15:46:14.973 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-13 15:46:14.976 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-13 15:46:14.979 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-13 15:46:14.982 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-13 15:46:14.993 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-13 15:46:14.996 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-13 15:46:15.016 +08:00 [INF] MySettingName => MySettingValue
+2023-01-13 15:46:15.018 +08:00 [INF] EnvironmentName => Production
+2023-01-13 15:46:15.022 +08:00 [INF] Initialized all ABP modules.
+2023-01-13 16:05:16.854 +08:00 [INF] Hello World!
+2023-01-13 16:21:08.640 +08:00 [INF] Starting console host.
+2023-01-13 16:21:10.042 +08:00 [INF] Loaded ABP modules:
+2023-01-13 16:21:10.052 +08:00 [INF] - App.AppModule
+2023-01-13 16:21:10.058 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-13 16:21:10.069 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-13 16:21:10.073 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-13 16:21:10.079 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-13 16:21:10.082 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-13 16:21:10.084 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-13 16:21:10.087 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-13 16:21:10.090 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-13 16:21:10.093 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-13 16:21:10.096 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-13 16:21:10.100 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-13 16:21:10.102 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-13 16:21:10.105 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-13 16:21:10.107 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-13 16:21:10.109 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-13 16:21:10.111 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-13 16:21:10.113 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-13 16:21:10.115 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-13 16:21:10.117 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-13 16:21:10.119 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-13 16:21:10.122 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-13 16:21:10.126 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-13 16:21:10.128 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-13 16:21:10.130 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-13 16:21:10.133 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-13 16:21:10.151 +08:00 [INF] MySettingName => MySettingValue
+2023-01-13 16:21:10.153 +08:00 [INF] EnvironmentName => Production
+2023-01-13 16:21:10.157 +08:00 [INF] Initialized all ABP modules.
+2023-01-13 16:21:42.262 +08:00 [INF] Hello World!
+2023-01-13 16:21:46.403 +08:00 [FTL] Host terminated unexpectedly!
+System.Exception: FreeSet() => Object reference not set to an instance of an object.
+   at App.HelloWorldService.FreeSet[TCacheItem](RedisClient client, String keyPrefix, String key, TCacheItem value, DistributedCacheEntryOptions options) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 227
+   at App.HelloWorldService.SayHelloAsync() in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\HelloWorldService.cs:line 82
+   at App.AppHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\AppHostedService.cs:line 21
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at App.Program.Main(String[] args) in C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App\Program.cs:line 46
+2023-01-13 16:22:18.404 +08:00 [INF] Starting console host.
+2023-01-13 16:22:20.105 +08:00 [INF] Loaded ABP modules:
+2023-01-13 16:22:20.109 +08:00 [INF] - App.AppModule
+2023-01-13 16:22:20.112 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-13 16:22:20.115 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-13 16:22:20.118 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-13 16:22:20.120 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-13 16:22:20.122 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-13 16:22:20.125 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-13 16:22:20.127 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-13 16:22:20.130 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-13 16:22:20.132 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-13 16:22:20.134 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-13 16:22:20.137 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-13 16:22:20.139 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-13 16:22:20.142 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-13 16:22:20.144 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-13 16:22:20.146 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-13 16:22:20.149 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-13 16:22:20.151 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-13 16:22:20.154 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-13 16:22:20.156 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-13 16:22:20.158 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-13 16:22:20.161 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-13 16:22:20.164 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-13 16:22:20.168 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-13 16:22:20.171 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-13 16:22:20.176 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-13 16:22:20.193 +08:00 [INF] MySettingName => MySettingValue
+2023-01-13 16:22:20.195 +08:00 [INF] EnvironmentName => Production
+2023-01-13 16:22:20.198 +08:00 [INF] Initialized all ABP modules.
+2023-01-13 16:22:30.633 +08:00 [INF] Hello World!
+2023-01-13 16:25:00.233 +08:00 [INF] Starting console host.
+2023-01-13 16:25:01.284 +08:00 [INF] Loaded ABP modules:
+2023-01-13 16:25:01.287 +08:00 [INF] - App.AppModule
+2023-01-13 16:25:01.289 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-13 16:25:01.291 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-13 16:25:01.293 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-13 16:25:01.295 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-13 16:25:01.297 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-13 16:25:01.299 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-13 16:25:01.301 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-13 16:25:01.303 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-13 16:25:01.305 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-13 16:25:01.307 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-13 16:25:01.309 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-13 16:25:01.311 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-13 16:25:01.314 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-13 16:25:01.316 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-13 16:25:01.318 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-13 16:25:01.320 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-13 16:25:01.322 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-13 16:25:01.345 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-13 16:25:01.347 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-13 16:25:01.350 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-13 16:25:01.352 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-13 16:25:01.354 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-13 16:25:01.356 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-13 16:25:01.358 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-13 16:25:01.360 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-13 16:25:01.377 +08:00 [INF] MySettingName => MySettingValue
+2023-01-13 16:25:01.379 +08:00 [INF] EnvironmentName => Production
+2023-01-13 16:25:01.382 +08:00 [INF] Initialized all ABP modules.
+2023-01-13 16:25:01.589 +08:00 [INF] Hello World!
+2023-01-14 09:57:34.597 +08:00 [INF] Starting console host.
+2023-01-14 09:57:37.246 +08:00 [INF] Loaded ABP modules:
+2023-01-14 09:57:37.249 +08:00 [INF] - App.AppModule
+2023-01-14 09:57:37.251 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-14 09:57:37.252 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-14 09:57:37.254 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-14 09:57:37.256 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-14 09:57:37.259 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-14 09:57:37.260 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-14 09:57:37.262 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-14 09:57:37.264 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-14 09:57:37.265 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-14 09:57:37.267 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-14 09:57:37.269 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-14 09:57:37.271 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-14 09:57:37.274 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-14 09:57:37.276 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-14 09:57:37.278 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-14 09:57:37.279 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-14 09:57:37.281 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-14 09:57:37.283 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-14 09:57:37.284 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-14 09:57:37.287 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-14 09:57:37.288 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-14 09:57:37.320 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-14 09:57:37.329 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-14 09:57:37.341 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-14 09:57:37.349 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-14 09:57:37.402 +08:00 [INF] MySettingName => MySettingValue
+2023-01-14 09:57:37.407 +08:00 [INF] EnvironmentName => Production
+2023-01-14 09:57:37.415 +08:00 [INF] Initialized all ABP modules.
+2023-01-14 09:57:37.722 +08:00 [INF] Hello World!
+2023-01-14 09:57:54.352 +08:00 [INF] SetAsync 执行时间：2430 ms
+2023-01-14 09:58:59.659 +08:00 [INF] Starting console host.
+2023-01-14 09:59:00.810 +08:00 [INF] Loaded ABP modules:
+2023-01-14 09:59:00.813 +08:00 [INF] - App.AppModule
+2023-01-14 09:59:00.815 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-14 09:59:00.817 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-14 09:59:00.819 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-14 09:59:00.821 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-14 09:59:00.824 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-14 09:59:00.826 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-14 09:59:00.828 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-14 09:59:00.831 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-14 09:59:00.832 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-14 09:59:00.834 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-14 09:59:00.836 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-14 09:59:00.837 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-14 09:59:00.839 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-14 09:59:00.842 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-14 09:59:00.843 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-14 09:59:00.845 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-14 09:59:00.847 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-14 09:59:00.850 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-14 09:59:00.852 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-14 09:59:00.856 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-14 09:59:00.858 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-14 09:59:00.860 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-14 09:59:00.862 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-14 09:59:00.864 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-14 09:59:00.866 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-14 09:59:00.888 +08:00 [INF] MySettingName => MySettingValue
+2023-01-14 09:59:00.890 +08:00 [INF] EnvironmentName => Production
+2023-01-14 09:59:00.893 +08:00 [INF] Initialized all ABP modules.
+2023-01-14 09:59:01.074 +08:00 [INF] Hello World!
+2023-01-14 10:03:25.505 +08:00 [INF] Starting console host.
+2023-01-14 10:03:29.097 +08:00 [INF] Loaded ABP modules:
+2023-01-14 10:03:29.111 +08:00 [INF] - App.AppModule
+2023-01-14 10:03:29.127 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-14 10:03:29.132 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-14 10:03:29.147 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-14 10:03:29.158 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-14 10:03:29.166 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-14 10:03:29.185 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-14 10:03:29.208 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-14 10:03:29.260 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-14 10:03:29.274 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-14 10:03:29.281 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-14 10:03:29.287 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-14 10:03:29.296 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-14 10:03:29.307 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-14 10:03:29.315 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-14 10:03:29.320 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-14 10:03:29.329 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-14 10:03:29.338 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-14 10:03:29.349 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-14 10:03:29.357 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-14 10:03:29.364 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-14 10:03:29.374 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-14 10:03:29.383 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-14 10:03:29.394 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-14 10:03:29.423 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-14 10:03:29.441 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-14 10:03:29.505 +08:00 [INF] MySettingName => MySettingValue
+2023-01-14 10:03:29.514 +08:00 [INF] EnvironmentName => Production
+2023-01-14 10:03:29.526 +08:00 [INF] Initialized all ABP modules.
+2023-01-14 10:03:30.099 +08:00 [INF] Hello World!
+2023-01-14 10:04:24.706 +08:00 [INF] SetAsync 执行时间：37130 ms
+2023-01-14 10:07:14.536 +08:00 [INF] Starting console host.
+2023-01-14 10:07:15.624 +08:00 [INF] Loaded ABP modules:
+2023-01-14 10:07:15.628 +08:00 [INF] - App.AppModule
+2023-01-14 10:07:15.630 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-14 10:07:15.631 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-14 10:07:15.635 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-14 10:07:15.637 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-14 10:07:15.639 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-14 10:07:15.640 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-14 10:07:15.644 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-14 10:07:15.646 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-14 10:07:15.648 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-14 10:07:15.649 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-14 10:07:15.651 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-14 10:07:15.653 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-14 10:07:15.655 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-14 10:07:15.657 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-14 10:07:15.659 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-14 10:07:15.661 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-14 10:07:15.663 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-14 10:07:15.664 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-14 10:07:15.666 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-14 10:07:15.668 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-14 10:07:15.670 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-14 10:07:15.672 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-14 10:07:15.674 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-14 10:07:15.675 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-14 10:07:15.678 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-14 10:07:15.691 +08:00 [INF] MySettingName => MySettingValue
+2023-01-14 10:07:15.693 +08:00 [INF] EnvironmentName => Production
+2023-01-14 10:07:15.697 +08:00 [INF] Initialized all ABP modules.
+2023-01-14 10:07:15.881 +08:00 [INF] Hello World!
+2023-01-14 10:08:13.539 +08:00 [INF] SetAsync 执行时间：1929 ms
+2023-01-14 10:08:24.690 +08:00 [INF] GetAsync 执行时间：6474 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-14T10:07:16.2759499+08:00","RecordValue":"123.45"}
+2023-01-14 10:08:51.330 +08:00 [INF] SetManyAsync 执行时间：20862 ms
+2023-01-14 10:09:23.775 +08:00 [INF] GetManyAsync 执行时间：27725 ms，10722 条
+2023-01-14 10:09:51.526 +08:00 [INF] GetOrAddManyAsync 执行时间：22438 ms
+2023-01-14 10:10:03.370 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-14 10:10:03.385 +08:00 [INF] Hosting environment: Production
+2023-01-14 10:10:03.389 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
+2023-01-14 10:10:21.563 +08:00 [INF] Starting console host.
+2023-01-14 10:10:23.764 +08:00 [INF] Loaded ABP modules:
+2023-01-14 10:10:23.771 +08:00 [INF] - App.AppModule
+2023-01-14 10:10:23.779 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-14 10:10:23.782 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-14 10:10:23.788 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-14 10:10:23.793 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-14 10:10:23.796 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-14 10:10:23.798 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-14 10:10:23.804 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-14 10:10:23.809 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-14 10:10:23.812 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-14 10:10:23.816 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-14 10:10:23.820 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-14 10:10:23.828 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-14 10:10:23.833 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-14 10:10:23.838 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-14 10:10:23.842 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-14 10:10:23.845 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-14 10:10:23.849 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-14 10:10:23.852 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-14 10:10:23.856 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-14 10:10:23.859 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-14 10:10:23.862 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-14 10:10:23.870 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-14 10:10:23.875 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-14 10:10:23.892 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-14 10:10:23.898 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-14 10:10:23.931 +08:00 [INF] MySettingName => MySettingValue
+2023-01-14 10:10:23.936 +08:00 [INF] EnvironmentName => Production
+2023-01-14 10:10:23.945 +08:00 [INF] Initialized all ABP modules.
+2023-01-14 10:10:24.335 +08:00 [INF] Hello World!
+2023-01-14 10:10:51.173 +08:00 [INF] SetAsync 执行时间：9980 ms
+2023-01-14 10:10:58.502 +08:00 [INF] GetAsync 执行时间：2501 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-14T10:10:25.1685098+08:00","RecordValue":"123.45"}
+2023-01-14 10:11:45.155 +08:00 [INF] SetManyAsync 执行时间：41956 ms
+2023-01-14 10:12:03.575 +08:00 [INF] GetManyAsync 执行时间：18417 ms，10722 条
+2023-01-14 10:12:04.869 +08:00 [INF] GetOrAddManyAsync 执行时间：1287 ms
+2023-01-14 10:12:05.138 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-14 10:12:05.202 +08:00 [INF] Hosting environment: Production
+2023-01-14 10:12:05.218 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
+2023-01-14 10:13:42.072 +08:00 [INF] Starting console host.
+2023-01-14 10:13:46.325 +08:00 [INF] Loaded ABP modules:
+2023-01-14 10:13:46.334 +08:00 [INF] - App.AppModule
+2023-01-14 10:13:46.341 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-14 10:13:46.345 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-14 10:13:46.350 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-14 10:13:46.353 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-14 10:13:46.357 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-14 10:13:46.359 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-14 10:13:46.362 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-14 10:13:46.366 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-14 10:13:46.372 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-14 10:13:46.375 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-14 10:13:46.380 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-14 10:13:46.383 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-14 10:13:46.386 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-14 10:13:46.389 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-14 10:13:46.394 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-14 10:13:46.397 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-14 10:13:46.399 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-14 10:13:46.402 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-14 10:13:46.404 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-14 10:13:46.407 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-14 10:13:46.409 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-14 10:13:46.414 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-14 10:13:46.417 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-14 10:13:46.421 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-14 10:13:46.425 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-14 10:13:46.448 +08:00 [INF] MySettingName => MySettingValue
+2023-01-14 10:13:46.451 +08:00 [INF] EnvironmentName => Production
+2023-01-14 10:13:46.456 +08:00 [INF] Initialized all ABP modules.
+2023-01-14 10:13:46.908 +08:00 [INF] Hello World!
+2023-01-14 10:13:59.938 +08:00 [INF] SetAsync 执行时间：1553 ms
+2023-01-14 10:14:00.054 +08:00 [INF] GetAsync 执行时间：108 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-14T10:13:47.5757739+08:00","RecordValue":"123.45"}
+2023-01-14 10:14:25.771 +08:00 [INF] SetManyAsync 执行时间：25696 ms
+2023-01-14 10:16:06.465 +08:00 [INF] GetManyAsync 执行时间：79636 ms，10722 条
+2023-01-14 10:19:43.192 +08:00 [INF] Starting console host.
+2023-01-14 10:19:44.739 +08:00 [INF] Loaded ABP modules:
+2023-01-14 10:19:44.743 +08:00 [INF] - App.AppModule
+2023-01-14 10:19:44.743 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-14 10:19:44.743 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-14 10:19:44.743 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-14 10:19:44.743 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-14 10:19:44.743 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-14 10:19:44.744 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-14 10:19:44.744 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-14 10:19:44.744 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-14 10:19:44.744 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-14 10:19:44.744 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-14 10:19:44.744 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-14 10:19:44.744 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-14 10:19:44.744 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-14 10:19:44.744 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-14 10:19:44.744 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-14 10:19:44.744 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-14 10:19:44.744 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-14 10:19:44.744 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-14 10:19:44.744 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-14 10:19:44.744 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-14 10:19:44.744 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-14 10:19:44.744 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-14 10:19:44.744 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-14 10:19:44.744 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-14 10:19:44.744 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-14 10:19:44.800 +08:00 [INF] MySettingName => MySettingValue
+2023-01-14 10:19:44.800 +08:00 [INF] EnvironmentName => Production
+2023-01-14 10:19:44.804 +08:00 [INF] Initialized all ABP modules.
+2023-01-14 10:19:45.376 +08:00 [INF] Hello World!
+2023-01-14 10:20:15.987 +08:00 [INF] SetAsync 执行时间：262 ms
+2023-01-14 10:20:16.140 +08:00 [INF] GetAsync 执行时间：152 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-14T10:19:46.3825904+08:00","RecordValue":"123.45"}
+2023-01-14 10:20:33.527 +08:00 [INF] SetManyAsync 执行时间：17385 ms
+2023-01-14 10:20:53.759 +08:00 [INF] GetManyAsync 执行时间：20232 ms，10722 条
+2023-01-14 10:21:20.539 +08:00 [INF] GetOrAddManyAsync 执行时间：26779 ms
+2023-01-14 10:21:22.528 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-14 10:21:22.539 +08:00 [INF] Hosting environment: Production
+2023-01-14 10:21:22.540 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
+2023-01-14 10:21:28.240 +08:00 [INF] Application is shutting down...
