@@ -253,3 +253,4 @@ paket-files/
 
 # App
 src/App.ConsoleApp/Logs/logs.txt
+src/App/Logs/logs.txt

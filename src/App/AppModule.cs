@@ -45,6 +45,7 @@ public class AppModule : AbpModule
             options.Clients.ConfigureDefault(client =>
             {
                 client.Mode = RedisMode.Single;
+                // client.ConnectionString = "192.168.1.150:6379";
                 client.ConnectionString = "192.168.1.165:30379";
                 client.ReadOnly = false;
             });

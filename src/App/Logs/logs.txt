@@ -2269,3 +2269,144 @@ System.Exception: FreeSet() => Object reference not set to an instance of an obj
 2023-01-14 10:21:22.539 +08:00 [INF] Hosting environment: Production
 2023-01-14 10:21:22.540 +08:00 [INF] Content root path: C:\Users\yeahe83\Documents\Dev\git\AbpFreeRedisDemo\src\App
 2023-01-14 10:21:28.240 +08:00 [INF] Application is shutting down...
+2023-01-30 11:56:28.649 +08:00 [INF] Starting console host.
+2023-01-30 11:56:30.755 +08:00 [INF] Loaded ABP modules:
+2023-01-30 11:56:30.756 +08:00 [INF] - App.AppModule
+2023-01-30 11:56:30.756 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-30 11:56:30.756 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-30 11:56:30.756 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-30 11:56:30.756 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-30 11:56:30.756 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-30 11:56:30.756 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-30 11:56:30.756 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-30 11:56:30.756 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-30 11:56:30.756 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-30 11:56:30.756 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-30 11:56:30.756 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-30 11:56:30.756 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-30 11:56:30.756 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-30 11:56:30.756 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-30 11:56:30.756 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-30 11:56:30.756 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-30 11:56:30.756 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-30 11:56:30.756 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-30 11:56:30.756 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-30 11:56:30.756 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-30 11:56:30.756 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-30 11:56:30.756 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-30 11:56:30.756 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-30 11:56:30.756 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-30 11:56:30.756 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-30 11:56:30.765 +08:00 [INF] MySettingName => MySettingValue
+2023-01-30 11:56:30.765 +08:00 [INF] EnvironmentName => Production
+2023-01-30 11:56:30.766 +08:00 [INF] Initialized all ABP modules.
+2023-01-30 11:56:30.876 +08:00 [INF] Hello World!
+2023-01-30 11:56:30.876 +08:00 [INF] =========== 0 ===========
+2023-01-30 11:56:30.948 +08:00 [INF] Hello World!
+2023-01-30 11:56:31.493 +08:00 [INF] SetAsync 执行时间：29 ms
+2023-01-30 11:56:31.501 +08:00 [INF] GetAsync 执行时间：7 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T11:56:31.1518053+08:00","RecordValue":"123.45"}
+2023-01-30 11:56:31.807 +08:00 [INF] SetManyAsync 执行时间：306 ms
+2023-01-30 11:56:32.070 +08:00 [INF] GetManyAsync 执行时间：261 ms，10722 条
+2023-01-30 11:56:32.296 +08:00 [INF] GetOrAddManyAsync 执行时间：226 ms
+2023-01-30 11:56:32.367 +08:00 [INF] =========== 1 ===========
+2023-01-30 11:56:32.367 +08:00 [INF] Hello World!
+2023-01-30 11:56:32.631 +08:00 [INF] SetAsync 执行时间：0 ms
+2023-01-30 11:56:32.632 +08:00 [INF] GetAsync 执行时间：0 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T11:56:32.4878233+08:00","RecordValue":"123.45"}
+2023-01-30 11:56:32.948 +08:00 [INF] SetManyAsync 执行时间：315 ms
+2023-01-30 11:56:33.094 +08:00 [INF] GetManyAsync 执行时间：146 ms，10722 条
+2023-01-30 11:56:33.306 +08:00 [INF] GetOrAddManyAsync 执行时间：212 ms
+2023-01-30 11:56:33.363 +08:00 [INF] =========== 2 ===========
+2023-01-30 11:56:33.363 +08:00 [INF] Hello World!
+2023-01-30 11:56:33.505 +08:00 [INF] SetAsync 执行时间：0 ms
+2023-01-30 11:56:33.505 +08:00 [INF] GetAsync 执行时间：0 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T11:56:33.4373292+08:00","RecordValue":"123.45"}
+2023-01-30 11:56:33.720 +08:00 [INF] SetManyAsync 执行时间：214 ms
+2023-01-30 11:56:33.879 +08:00 [INF] GetManyAsync 执行时间：159 ms，10722 条
+2023-01-30 11:56:34.101 +08:00 [INF] GetOrAddManyAsync 执行时间：222 ms
+2023-01-30 11:56:34.158 +08:00 [INF] =========== 3 ===========
+2023-01-30 11:56:34.158 +08:00 [INF] Hello World!
+2023-01-30 11:56:34.301 +08:00 [INF] SetAsync 执行时间：0 ms
+2023-01-30 11:56:34.302 +08:00 [INF] GetAsync 执行时间：0 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T11:56:34.2312704+08:00","RecordValue":"123.45"}
+2023-01-30 11:56:34.534 +08:00 [INF] SetManyAsync 执行时间：232 ms
+2023-01-30 11:56:34.681 +08:00 [INF] GetManyAsync 执行时间：146 ms，10722 条
+2023-01-30 11:56:34.880 +08:00 [INF] GetOrAddManyAsync 执行时间：199 ms
+2023-01-30 11:56:34.937 +08:00 [INF] =========== 4 ===========
+2023-01-30 11:56:34.937 +08:00 [INF] Hello World!
+2023-01-30 11:56:35.105 +08:00 [INF] SetAsync 执行时间：0 ms
+2023-01-30 11:56:35.106 +08:00 [INF] GetAsync 执行时间：0 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T11:56:35.0314673+08:00","RecordValue":"123.45"}
+2023-01-30 11:56:35.335 +08:00 [INF] SetManyAsync 执行时间：229 ms
+2023-01-30 11:56:35.493 +08:00 [INF] GetManyAsync 执行时间：157 ms，10722 条
+2023-01-30 11:56:35.689 +08:00 [INF] GetOrAddManyAsync 执行时间：196 ms
+2023-01-30 11:56:35.737 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-30 11:56:35.742 +08:00 [INF] Hosting environment: Production
+2023-01-30 11:56:35.742 +08:00 [INF] Content root path: C:\dev\git\AbpFreeRedisDemo\src\App
+2023-01-30 12:02:06.033 +08:00 [INF] Application is shutting down...
+2023-01-30 12:02:34.623 +08:00 [INF] Starting console host.
+2023-01-30 12:02:34.981 +08:00 [INF] Loaded ABP modules:
+2023-01-30 12:02:34.982 +08:00 [INF] - App.AppModule
+2023-01-30 12:02:34.982 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-01-30 12:02:34.982 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-01-30 12:02:34.982 +08:00 [INF]   - Volo.Abp.Caching.AbpCachingModule
+2023-01-30 12:02:34.982 +08:00 [INF]     - Volo.Abp.Threading.AbpThreadingModule
+2023-01-30 12:02:34.982 +08:00 [INF]     - Volo.Abp.Serialization.AbpSerializationModule
+2023-01-30 12:02:34.982 +08:00 [INF]     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-01-30 12:02:34.982 +08:00 [INF]     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-01-30 12:02:34.982 +08:00 [INF]       - Volo.Abp.Data.AbpDataModule
+2023-01-30 12:02:34.982 +08:00 [INF]         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-01-30 12:02:34.982 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-01-30 12:02:34.982 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-01-30 12:02:34.982 +08:00 [INF]         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-01-30 12:02:34.982 +08:00 [INF]       - Volo.Abp.Security.AbpSecurityModule
+2023-01-30 12:02:34.982 +08:00 [INF]     - Volo.Abp.Json.AbpJsonModule
+2023-01-30 12:02:34.982 +08:00 [INF]       - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-01-30 12:02:34.982 +08:00 [INF]         - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-01-30 12:02:34.982 +08:00 [INF]         - Volo.Abp.Timing.AbpTimingModule
+2023-01-30 12:02:34.982 +08:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-01-30 12:02:34.982 +08:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-01-30 12:02:34.982 +08:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2023-01-30 12:02:34.982 +08:00 [INF]   - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-01-30 12:02:34.982 +08:00 [INF]   - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-01-30 12:02:34.982 +08:00 [INF]     - Volo.Abp.Auditing.AbpAuditingModule
+2023-01-30 12:02:34.982 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-01-30 12:02:34.982 +08:00 [INF]   - SharpAbp.Abp.FreeRedis.AbpFreeRedisModule
+2023-01-30 12:02:34.990 +08:00 [INF] MySettingName => MySettingValue
+2023-01-30 12:02:34.990 +08:00 [INF] EnvironmentName => Production
+2023-01-30 12:02:34.991 +08:00 [INF] Initialized all ABP modules.
+2023-01-30 12:02:35.096 +08:00 [INF] Hello World!
+2023-01-30 12:02:35.096 +08:00 [INF] =========== 0 ===========
+2023-01-30 12:02:35.099 +08:00 [INF] Hello World!
+2023-01-30 12:02:35.671 +08:00 [INF] SetAsync 执行时间：20 ms
+2023-01-30 12:02:35.681 +08:00 [INF] GetAsync 执行时间：10 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T12:02:35.2987641+08:00","RecordValue":"123.45"}
+2023-01-30 12:02:35.950 +08:00 [INF] SetManyAsync 执行时间：268 ms
+2023-01-30 12:02:36.176 +08:00 [INF] GetManyAsync 执行时间：225 ms，10722 条
+2023-01-30 12:02:36.347 +08:00 [INF] GetOrAddManyAsync 执行时间：170 ms
+2023-01-30 12:02:36.406 +08:00 [INF] =========== 1 ===========
+2023-01-30 12:02:36.406 +08:00 [INF] Hello World!
+2023-01-30 12:02:36.625 +08:00 [INF] SetAsync 执行时间：1 ms
+2023-01-30 12:02:36.626 +08:00 [INF] GetAsync 执行时间：1 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T12:02:36.530598+08:00","RecordValue":"123.45"}
+2023-01-30 12:02:36.841 +08:00 [INF] SetManyAsync 执行时间：214 ms
+2023-01-30 12:02:37.025 +08:00 [INF] GetManyAsync 执行时间：183 ms，10722 条
+2023-01-30 12:02:37.168 +08:00 [INF] GetOrAddManyAsync 执行时间：143 ms
+2023-01-30 12:02:37.206 +08:00 [INF] =========== 2 ===========
+2023-01-30 12:02:37.206 +08:00 [INF] Hello World!
+2023-01-30 12:02:37.371 +08:00 [INF] SetAsync 执行时间：0 ms
+2023-01-30 12:02:37.372 +08:00 [INF] GetAsync 执行时间：0 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T12:02:37.302817+08:00","RecordValue":"123.45"}
+2023-01-30 12:02:37.598 +08:00 [INF] SetManyAsync 执行时间：225 ms
+2023-01-30 12:02:37.738 +08:00 [INF] GetManyAsync 执行时间：139 ms，10722 条
+2023-01-30 12:02:37.867 +08:00 [INF] GetOrAddManyAsync 执行时间：128 ms
+2023-01-30 12:02:37.906 +08:00 [INF] =========== 3 ===========
+2023-01-30 12:02:37.906 +08:00 [INF] Hello World!
+2023-01-30 12:02:38.078 +08:00 [INF] SetAsync 执行时间：1 ms
+2023-01-30 12:02:38.079 +08:00 [INF] GetAsync 执行时间：1 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T12:02:37.9794572+08:00","RecordValue":"123.45"}
+2023-01-30 12:02:38.304 +08:00 [INF] SetManyAsync 执行时间：225 ms
+2023-01-30 12:02:38.449 +08:00 [INF] GetManyAsync 执行时间：144 ms，10722 条
+2023-01-30 12:02:38.569 +08:00 [INF] GetOrAddManyAsync 执行时间：120 ms
+2023-01-30 12:02:38.605 +08:00 [INF] =========== 4 ===========
+2023-01-30 12:02:38.605 +08:00 [INF] Hello World!
+2023-01-30 12:02:38.766 +08:00 [INF] SetAsync 执行时间：0 ms
+2023-01-30 12:02:38.767 +08:00 [INF] GetAsync 执行时间：1 ms，值为：{"Id":"00000000-0000-0000-0000-000000000000","EnterpriseCode":"TLM","SpecialtyCategory":101,"DeviceNumber":"SUB1-UPS.UPS1","ParamDictNumber":"ON_UPS___01输入频率","RecordDate":"2023-01-30T12:02:38.6937025+08:00","RecordValue":"123.45"}
+2023-01-30 12:02:39.004 +08:00 [INF] SetManyAsync 执行时间：236 ms
+2023-01-30 12:02:39.157 +08:00 [INF] GetManyAsync 执行时间：153 ms，10722 条
+2023-01-30 12:02:39.309 +08:00 [INF] GetOrAddManyAsync 执行时间：152 ms
+2023-01-30 12:02:39.349 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-30 12:02:39.354 +08:00 [INF] Hosting environment: Production
+2023-01-30 12:02:39.354 +08:00 [INF] Content root path: C:\dev\git\AbpFreeRedisDemo\src\App
